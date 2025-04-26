@@ -1,0 +1,8 @@
+https://designgui.io/
+https://chromewebstore.google.com/detail/gimli-tailwind/fojckembkmaoehhmkiomebhkcengcljl
+https://tw-elements.com/
+https://daisyui.com/
+https://flowbite.com/  # better accessability that daisy
+https://www.reddit.com/r/tailwindcss/comments/15zx0ve/most_popular_free_ui_libraries/
+daisy does not use js so some components are janky
+https://preline.co/index.html
