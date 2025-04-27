@@ -2,13 +2,15 @@ const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
+const base_name = 'arr'
+
 module.exports = {
   entry: {
     main: './src/js/main.js',   // Entry point for JS
   },
   output: {
     path: path.resolve(__dirname, 'public'), // Output directory for JS
-    filename: 'js/[name].js', // Output file name for JS
+    filename: `js/${base_name}.js`, // Output file name for JS
     assetModuleFilename: 'assets/[name].[contenthash][ext][query]',
   },
   module: {
@@ -47,7 +49,7 @@ module.exports = {
         hash: true,
     }),
     new MiniCssExtractPlugin({
-      filename: 'css/[name].css', // Output file name for CSS
+      filename: `css/${base_name}.css`, // Output file name for CSS
     }),
   ],
 };
