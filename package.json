@@ -5,7 +5,7 @@
     "watch": "webpack --mode development --watch"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.17",
+    "@tailwindcss/postcss": "^4.1.4",
     "css-loader": "^6.9.1",
     "cssnano": "^6.0.3",
     "html-webpack-plugin": "^5.6.0",
@@ -14,7 +14,7 @@
     "postcss-loader": "^8.0.0",
     "sass": "^1.70.0",
     "sass-loader": "^14.0.0",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^4.1.4",
     "webpack-cli": "^5.1.4"
   }
 }

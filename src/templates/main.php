@@ -27,7 +27,7 @@
     <% } %>
   </head>
 
-  <body class="xfont-mono bg-zinc-900">
+  <body class="font-mono bg-zinc-900">
 
     <section class="flex flex-col md:flex-row">
 
@@ -44,7 +44,7 @@
            [9000, 'Portainer', 'Docker'],
          ];
       ?>
-      <div class="flex flex-row md:flex-col gap-3 gap-x-7 text-sm overflow-scroll p-5">
+      <div class="flex flex-row md:flex-col gap-3 gap-x-7 text-sm overflow-scroll md:overflow-clipped p-6">
 
         <?php foreach($pages as $page): ?>
           <div>
